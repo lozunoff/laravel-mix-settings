@@ -1,0 +1,24 @@
+.page-body {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+    &__img {
+        @media (min-width: $bp-sm) {
+            max-width: 500px;
+        }
+
+        @media (min-width: $bp-md) {
+            max-width: 600px;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+        }
+    }
+}

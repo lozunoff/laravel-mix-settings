@@ -1,0 +1,52 @@
+.social {
+    &__link {
+        display: block;
+        max-width: 45px;
+        max-height: 45px;
+        width: 14vw;
+        height: 14vw;
+        border: 2px solid #8C8A8C;
+        border-radius: 5px;
+        position: relative;
+
+        &:hover {
+            border-color: #2d2d2d;
+        }
+    }
+
+    &__icon {
+        max-width: 25px;
+        max-height: 25px;
+        width: 7vw;
+        height: 7vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        fill: #8C8A8C;
+
+        .social__link:hover &_viber {
+            fill: #7360f2;
+        }
+
+        .social__link:hover &_telegram {
+            fill: #0088cc;
+        }
+
+        .social__link:hover &_whatsapp {
+            fill: #25d366;
+        }
+
+        .social__link:hover &_youtube {
+            fill: #FF0000;
+        }
+
+        .social__link:hover &_github {
+            fill: #24292e;
+        }
+
+        .social__link:hover &_instagram {
+            fill: #5851DB;
+        }
+    }
+}

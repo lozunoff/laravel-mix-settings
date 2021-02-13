@@ -1,0 +1,27 @@
+.page-header {
+    height: 100px;
+    width: 100%;
+    background-color: #011f2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    &__title {
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #ffffff;
+
+        @media (min-width: $bp-xs) {
+            font-size: 24px;
+        }
+
+        @media (min-width: $bp-sm) {
+            font-size: 30px;
+        }
+
+        @media (min-width: $bp-md) {
+            font-size: 36px;
+        }
+    }
+}
